@@ -214,7 +214,45 @@ Justifica os itens do grid em relação ao eixo x (horizontal).
 <br/>
 <br/>
 
+### 12 • align-content
+Alinha os itens do grid em relação ao eixo y (vertical).
+<br/>
+<br/>
 
+`align-content: start;`
+> Alinha os itens ao início.
+<br/>
+<br/>
+
+`align-content: end;`
+> Alinha os itens ao final.
+<br/>
+<br/>
+
+`align-content: stretch;`
+> Estica os itens.
+<br/>
+<br/>
+
+`align-content: space-around;`
+> Distribui espaço entre os elementos. (O início e final são menores que os espaços internos).
+<br/>
+<br/>
+
+`align-content: space-between;`
+> Cria um espaço entre os elementos, ignorando o início e final.
+<br/>
+<br/>
+
+`align-content: space-evenly;`
+> Cria um espaço igual entre as colunas (no início e final também).
+<br/>
+<br/>
+
+`align-content: center;`
+> Centraliza o conteúdo.
+<br/>
+<br/>
 
 
 
