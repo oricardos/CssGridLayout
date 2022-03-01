@@ -158,3 +158,18 @@ Define o fluxo dos itens no grid. Se eles vão automaticamente gerar novas linha
 > Tenta posicionar o máximo dos elementos que existirem nas primeiras partes do grid (pode desorganizar o conteúdo).
 <br/>
 <br/>
+
+### 10 • grid
+Atalho geral para definir o grid: `grid-template-rows`, `grid-template-columns`, `grid-template-areas`, `grid-auto-rows`, `grid-auto-columns` e `grid-auto-flow`.
+<br/>
+<br/>
+
+`grid: 100px / 1fr 1fr;`
+> Gera uma linha com 100px de altura e 2 colunas com 1fr.
+<br/>
+<br/>
+
+`grid: 100px / auto-flow 100px 50px;`
+> Gera uma linha com **100px** de altura. O `grid-auto-flow` é definido como **column** (pois está logo antes da definição das colunas). Ele também define o `grid-auto-columns` com **100px** **50px**.
+<br/>
+<br/>
