@@ -105,18 +105,15 @@ grid-template:
 Define o gap (gutter) entre os elementos do grid.
 <br/>
 
-`gap: 20px;`<br/>
-
+`gap: 20px;`
 > Define 20px entre os elementos do grid (linha e coluna).
 <br/>
 
-`column-gap: 20px;`<br/>
-
+`column-gap: 20px;`
 > Define 20px de distância entre as colunas.
 <br/>
 
-`row-gap: 20px;`<br/>
-
+`row-gap: 20px;`
 > Define 20px de distância entre as linhas.
 <br/>
 
@@ -126,7 +123,6 @@ Define o tamanho das colunas do grid implícito (gerado automaticamente, quando 
 <br/>
 
 `grid-auto-columns: 100px;`
-
 > As colunas implícitas, geradas automaticamente, terão 100px de largura.
 <br/>
 
@@ -136,7 +132,6 @@ Define o tamanho das linhas do grid implícito (gerado automaticamente, quando a
 <br/>
 
 `grid-auto-rows: 100px;`
-
 > As linhas implícitas, geradas automaticamente, terão 100px de altura.
 <br/>
 
@@ -146,17 +141,14 @@ Define o fluxo dos itens no grid. Se eles vão automaticamente gerar novas linha
 <br/>
 
 `grid-auto-flow: row;`
-
 > Automaticamente gera novas linhas.
 <br/>
 
 `grid-auto-flow: column;`
-
 > Automaticamente gera novas colunas.
 <br/>
 
 `grid-auto-flow: dense;`
-
 > Tenta posicionar o máximo dos elementos que existirem nas primeiras partes do grid (pode desorganizar o conteúdo).
 <br/>
 
@@ -166,12 +158,10 @@ Atalho geral para definir o grid: `grid-template-rows`, `grid-template-columns`,
 <br/>
 
 `grid: 100px / 1fr 1fr;`
-
 > Gera uma linha com 100px de altura e 2 colunas com 1fr.
 <br/>
 
 `grid: 100px / auto-flow 100px 50px;`
-
 > Gera uma linha com **100px** de altura. O `grid-auto-flow` é definido como **column** (pois está logo antes da definição das colunas). Ele também define o `grid-auto-columns` com **100px** **50px**.
 <br/>
 
@@ -181,37 +171,30 @@ Justifica os itens do grid em relação ao eixo x (horizontal).
 <br/>
 
 `justify-content: start;`
-
 > Justifica os itens ao início.
 <br/>
 
 `justify-content: end;`
-
 > Justifica os itens ao final.
 <br/>
 
 `justify-content: stretch;`
-
 > Estica os itens.
 <br/>
 
 `justify-content: space-around;`
-
 > Distribui espaço entre os elementos. (O início e final são menores que os espaços internos).
 <br/>
 
 `justify-content: space-between;`
-
 > Cria um espaço entre os elementos, ignorando o início e final.
 <br/>
 
 `justify-content: space-evenly;`
-
 > Cria um espaço igual entre as colunas (no início e final também).
 <br/>
 
 `justify-content: center;`
-
 > Centraliza o conteúdo.
 <br/>
 
@@ -221,36 +204,48 @@ Alinha os itens do grid em relação ao eixo y (vertical).
 <br/>
 
 `align-content: start;`
-
 > Alinha os itens ao início.
 <br/>
 
 `align-content: end;`
-
 > Alinha os itens ao final.
 <br/>
 
 `align-content: stretch;`
-
 > Estica os itens.
 <br/>
 
 `align-content: space-around;`
-
 > Distribui espaço entre os elementos. (O início e final são menores que os espaços internos).
 <br/>
 
 `align-content: space-between;`
-
 > Cria um espaço entre os elementos, ignorando o início e final.
 <br/>
 
 `align-content: space-evenly;`
-
 > Cria um espaço igual entre as colunas (no início e final também).
 <br/>
 
 `align-content: center;`
-
 > Centraliza o conteúdo.
+<br/>
+
+### 13 • justify-items
+Justifica o conteúdo dos itens do grid em relação ao eixo x (horizontal). Justifica em relação a célula.
+
+`justify-items: start;`
+> Justifica os itens ao início.
+<br/>
+
+`justify-items: end;`
+> Justifica os itens ao final.
+<br/>
+
+`justify-items: center;`
+> Centraliza o conteúdo.
+<br/>
+
+`justify-items: stretch;`
+> Estica os itens.
 <br/>
