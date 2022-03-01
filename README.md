@@ -79,7 +79,9 @@ grid-template-areas:
 "sidenav content advert"
 "sidenav footer footer";
 ```
-> Cria 3 colunas e 3 linhas. [logo] ocupa a coluna 1, linha 1. [nav] ocupa da coluna 2 a 3, linha 1. [sidenav] ocupa a coluna 1, da linha 2 a 3. [content] ocupa a coluna 2, linha 2. [advert] ocupa a coluna 3, linha 2. [footer] ocupa da coluna 2 a 3, linha 3
+> Cria 3 colunas e 3 linhas. [logo] ocupa a coluna 1, linha 1. [nav] ocupa da coluna 2 a 3, linha 1. [sidenav] ocupa a coluna 1, da linha 2 a 3. [content] ocupa a coluna 2, linha 2. [advert] ocupa a coluna 3, linha 2. [footer] ocupa da coluna 2 a 3, linha 3.
+<br/>
+<br/>
 
 ### 5 • grid-template
 Atalho para definir o `grid-template-columns`, `grid-template-rows` e `grid-template-areas`.
@@ -94,4 +96,25 @@ grid-template:
 ```
 
 > A primeira linha com 50px, segunda com 150px e terceira com 100px. A primeira coluna com 100px, a segunda 1fr e a terceira com 50px.
+<br/>
+<br/>
 
+### 6 • gap
+Define o gap (gutter) entre os elementos do grid.
+<br/>
+<br/>
+
+`gap: 20px;`<br/>
+> Define 20px entre os elementos do grid (linha e coluna).
+<br/>
+<br/>
+
+`column-gap: 20px;`<br/>
+> Define 20px de distância entre as colunas.
+<br/>
+<br/>
+
+`row-gap: 20px;`<br/>
+> Define 20px de distância entre as linhas.
+<br/>
+<br/>
