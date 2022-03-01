@@ -173,3 +173,67 @@ Atalho geral para definir o grid: `grid-template-rows`, `grid-template-columns`,
 > Gera uma linha com **100px** de altura. O `grid-auto-flow` é definido como **column** (pois está logo antes da definição das colunas). Ele também define o `grid-auto-columns` com **100px** **50px**.
 <br/>
 <br/>
+
+### 11 • justify-content
+Justifica os itens do grid em relação ao eixo x (horizontal).
+<br/>
+<br/>
+
+`justify-content: start;`
+> Justifica os itens ao início.
+<br/>
+<br/>
+
+`justify-content: end;`
+> Justifica os itens ao final.
+<br/>
+<br/>
+
+`justify-content: stretch;`
+> Estica os itens.
+<br/>
+<br/>
+
+`justify-content: space-around;`
+> Distribui espaço entre os elementos. (O início e final são menores que os espaços internos).
+<br/>
+<br/>
+
+`justify-content: space-between;`
+> Cria um espaço entre os elementos, ignorando o início e final.
+<br/>
+<br/>
+
+`justify-content: space-evenly;`
+> Cria um espaço igual entre as colunas (no início e final também).
+<br/>
+<br/>
+
+`justify-content: center;`
+> Centraliza o conteúdo.
+<br/>
+<br/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
