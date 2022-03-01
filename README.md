@@ -138,3 +138,23 @@ Define o tamanho das linhas do grid implícito (gerado automaticamente, quando a
 > As linhas implícitas, geradas automaticamente, terão 100px de altura.
 <br/>
 <br/>
+
+### 9 • grid-auto-flow
+Define o fluxo dos itens no grid. Se eles vão automaticamente gerar novas linhas ou colunas.
+<br/>
+<br/>
+
+`grid-auto-flow: row;`
+> Automaticamente gera novas linhas.
+<br/>
+<br/>
+
+`grid-auto-flow: column;`
+> Automaticamente gera novas colunas.
+<br/>
+<br/>
+
+`grid-auto-flow: dense;`
+> Tenta posicionar o máximo dos elementos que existirem nas primeiras partes do grid (pode desorganizar o conteúdo).
+<br/>
+<br/>
