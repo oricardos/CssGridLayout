@@ -67,3 +67,15 @@ Define a quantidade de linhas no grid.
 > Cria 2 linhas no grid, sendo a segunda com cerca de duas vezes o tamanho da primeira.
 <br/>
 <br/>
+
+### 4 • grid-template-areas
+Define áreas específicas no grid. O ponto (.) pode ser utilizado para criar áreas vazias.
+<br/>
+<br/>
+```
+grid-template-areas:
+"logo nav nav"
+"sidenav content advert"
+"sidenav footer footer";
+```
+> Cria 3 colunas e 3 linhas. [logo] ocupa a coluna 1, linha 1. [nav] ocupa da coluna 2 a 3, linha 1. [sidenav] ocupa a coluna 1, da linha 2 a 3. [content] ocupa a coluna 2, linha 2. [advert] ocupa a coluna 3, linha 2. [footer] ocupa da coluna 2 a 3, linha 3
