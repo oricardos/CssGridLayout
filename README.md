@@ -249,3 +249,22 @@ Justifica o conteúdo dos itens do grid em relação ao eixo x (horizontal). Jus
 `justify-items: stretch;`
 > Estica os itens.
 <br/>
+
+### 14 • align-items
+Alinha o conteúdo dos itens do grid em relação ao eixo y (vertical). Alinha em relação a célula.
+
+`align-items: start;`
+> Alinha os itens ao início.
+<br/>
+
+`align-items: end;`
+> Alinha os itens ao final.
+<br/>
+
+`align-items: center;`
+> Centraliza o conteúdo.
+<br/>
+
+`align-items: stretch;`
+> Estica os itens.
+<br/>
