@@ -118,3 +118,14 @@ Define o gap (gutter) entre os elementos do grid.
 > Define 20px de distância entre as linhas.
 <br/>
 <br/>
+
+### 7 • grid-auto-columns
+Define o tamanho das colunas do grid implícito (gerado automaticamente, quando algum elemento é posicionado em uma coluna que não foi definida).
+<br/>
+<br/>
+
+`grid-auto-columns: 100px;`
+> As colunas implícitas, geradas automaticamente, terão 100px de largura.
+<br/>
+<br/>
+
