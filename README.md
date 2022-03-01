@@ -52,3 +52,18 @@ Define o número total de colunas que serão criadas no grid.
 > Cria automaticamente um total de colunas que acomode itens com no mínimo **100px** de largura.
 <br/>
 <br/>
+
+### 3 • grid-template-rows
+Define a quantidade de linhas no grid.
+<br/>
+<br/>
+
+`grid-template-rows: 50px 100px 50px 150px;`<br/>
+> Cria 4 linhas no grid, sendo a primeira com 50px, segunda 100px, terceira 50px e quarta 150px. Caso o grid necessite de mais linhas, elas terão o tamanho de acordo com o conteúdo.
+<br/>
+<br/>
+
+`grid-template-rows: 1fr 2fr;`<br/>
+> Cria 2 linhas no grid, sendo a segunda com cerca de duas vezes o tamanho da primeira.
+<br/>
+<br/>
