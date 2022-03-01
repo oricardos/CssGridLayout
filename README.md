@@ -129,3 +129,12 @@ Define o tamanho das colunas do grid implícito (gerado automaticamente, quando 
 <br/>
 <br/>
 
+### 8 • grid-auto-rows
+Define o tamanho das linhas do grid implícito (gerado automaticamente, quando algum elemento é posicionado em uma linha que não foi definida).
+<br/>
+<br/>
+
+`grid-auto-rows: 100px;`
+> As linhas implícitas, geradas automaticamente, terão 100px de altura.
+<br/>
+<br/>
