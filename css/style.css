@@ -95,7 +95,27 @@ nav.sidenav li a:hover {
 /* CONTENT */
 .content {
   grid-area: content;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1.875rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.875rem;
 }
+
+.col-wide {
+  grid-column: 1 / -1;
+}
+
+img.image1 {
+  grid-row: span 2;
+  align-self: end;
+}
+
+img.image2 {
+  align-self: end;
+}
+
 /* ANÚNCIOS */
 .adverts {
   grid-area: adverts;
