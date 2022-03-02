@@ -331,3 +331,20 @@ Atenção aqui, pois esse linha é referente a row. Porém as chamadas grid line
 > O item irá ocupar duas linhas a partir de onde ele estiver.
 <br/>
 
+### 3 • grid-area
+
+Define a área do item do grid. É um atalho para grid-row-start, grid-column-start, grid-row-end, grid-column-end.
+
+O z-index pode ser utilizado para manipular a posição no eixo Z do item. Ou seja, se um item for posicionado em cima de outro, o z-index controla qual vêm na frente.
+<br/>
+<br/>
+
+`grid-area: 1 / 2 / 4 / 3;`
+> Este é um atalho para:<br/>
+> `grid-row-start: 1;`<br/>
+> `grid-column-start: 2;`<br/>
+> `grid-row-end: 4;`<br/>
+> `grid-column-end: 3;`<br/>
+
+`grid-area: header;`
+> Vai posicionar o item na área definida como header.
