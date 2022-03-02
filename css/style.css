@@ -103,6 +103,19 @@ nav.sidenav li a:hover {
   gap: 1.875rem;
 }
 
+.title h1 {
+  color: #b07dfb;
+  font-size: 3.75rem;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.title span {
+  color: #b07dfb;
+  font-size: 0.875rem;
+  font-style: italic;
+}
+
 .col-wide {
   grid-column: 1 / -1;
 }
@@ -114,6 +127,17 @@ img.image1 {
 
 img.image2 {
   align-self: end;
+}
+
+p {
+  font-size: 1.125rem;
+  line-height: 1.5;
+  letter-spacing: -0.005em;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.information p + p {
+  margin-top: 1.875rem;
 }
 
 /* ANÚNCIOS */
