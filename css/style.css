@@ -22,6 +22,8 @@ a {
 
 img {
   max-width: 100%;
+  display: block;
+  border-radius: 5px;
 }
 
 /* GRID GERAL */
@@ -90,14 +92,28 @@ nav.sidenav li a:hover {
   background-color: #b07dfb;
 }
 
+/* CONTENT */
 .content {
   grid-area: content;
 }
-
-.advert {
+/* ANÚNCIOS */
+.adverts {
   grid-area: adverts;
+  background: #fafbfc;
+  display: grid;
+  align-content: start;
+  padding: 1.875rem;
+  gap: 1.875rem;
 }
 
 footer.footer {
   grid-area: footer;
+  background: linear-gradient(135deg, #8844ee, #b07dfb);
+}
+
+footer.footer p {
+  color: #fff;
+  font-size: 1.125rem;
+  text-align: center;
+  padding: 1.875rem;
 }
