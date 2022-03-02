@@ -268,3 +268,36 @@ Alinha o conteúdo dos itens do grid em relação ao eixo y (vertical). Alinha e
 `align-items: stretch;`
 > Estica os itens.
 <br/>
+<br/>
+
+## Grid Item
+Os Grid Itens são os filhos diretos do Grid Container. Um grid item pode ser explicito ou implícito. Explicito é quanto você define ele explicitamente no container e implícito é quanto ele é criado automaticamente para preencher o conteúdo no grid.
+
+### 1 • grid-column
+
+Define quais colunas serão ocupadas pelo grid item. É possível definir uma linha de início e final, assim o item irá ocupar múltiplas colunas.
+<br/>
+<br/>
+
+
+`grid-column: 1;`
+// O item ocupará a coluna 1.
+<br/>
+
+`grid-column: 1 / 3;`
+> O item ocupará a coluna 1 e 2 (Sim, isso mesmo, 1 e 2, pois os valores 1 / 3 são referentes as linhas da coluna. Isso significa que começa na linha 1 (início do grid) e vai até a linha 3, que é o começo da terceira coluna).
+<br/>
+
+`grid-column-start: 2;`
+> O item vai começar na linha 2.
+<br/>
+
+`grid-column-end: 4;`
+> O item vai terminar na linha 4.
+<br/>
+
+`grid-column: span 2;`
+> O item irá ocupar duas colunas a partir de onde ele estiver.
+<br/>
+
+
