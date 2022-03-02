@@ -348,3 +348,24 @@ O z-index pode ser utilizado para manipular a posição no eixo Z do item. Ou se
 
 `grid-area: header;`
 > Vai posicionar o item na área definida como header.
+
+### 4 • justify-self
+
+Justifica o item do grid em relação ao eixo x (horizontal). Justifica em relação a célula.
+<br/>
+<br/>
+
+`justify-self: start;`
+> Justifica o item ao início.
+<br/>
+
+`justify-self: end;`
+> Justifica o item ao final.
+<br/>
+
+`justify-self: center;`
+> Centraliza o conteúdo.
+<br/>
+
+`justify-self: stretch;`
+> Estica o item.
