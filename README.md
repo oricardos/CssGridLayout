@@ -303,3 +303,31 @@ Define quais colunas serão ocupadas pelo grid item. É possível definir uma li
 ![image](https://user-images.githubusercontent.com/46203839/156364902-39bf6395-a510-4d98-a60f-546a631f3b94.png)
 
 
+### 2 • grid-row
+
+Define quais linhas serão ocupadas pelo grid item.
+
+Atenção aqui, pois esse linha é referente a row. Porém as chamadas grid lines que por tradução também significam linhas do grid, são diferentes. Uma row (linha), possui sempre 2 grid lines (linhas do grid), uma no início dela e uma no final dela.
+<br/>
+<br/>
+
+`grid-row: 1;`
+> O item ocupará a linha 1.
+<br/>
+
+`grid-row: 1 / 3;`
+> O item ocupará a linha 1 e 2 (Sim, isso mesmo, 1 e 2, pois os valores 1 / 3 são referentes as linhas do grid. Isso significa que começa na linha 1 (início do grid) e vai até a linha 3 do grid, que é o começo da terceira linha).
+<br/>
+
+`grid-row-start: 2;`
+> O item vai começar na linha do grid 2.
+<br/>
+
+`grid-row-end: 4;`
+> O item vai terminar na linha do grid 4.
+<br/>
+
+`grid-row: span 2;`
+> O item irá ocupar duas linhas a partir de onde ele estiver.
+<br/>
+
