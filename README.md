@@ -369,3 +369,21 @@ Justifica o item do grid em relação ao eixo x (horizontal). Justifica em rela�
 
 `justify-self: stretch;`
 > Estica o item.
+
+### 5 • align-self
+Justifica o item do grid em relação ao eixo y (vertical). Alinha em relação a célula.
+
+`align-self: start;`
+> Alinha o item ao início.
+<br/>
+
+`align-self: end;`
+> Alinha o item ao final.
+<br/>
+
+`align-self: center;`
+> Centraliza o conteúdo.
+<br/>
+
+`align-self: stretch;`
+> Estica o item.
