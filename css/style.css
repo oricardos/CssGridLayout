@@ -67,8 +67,27 @@ header.header {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
+/* SIDENAV */
 nav.sidenav {
   grid-area: sidenave;
+  background: #fafbfc;
+  padding: 1.875rem;
+}
+
+nav.sidenav li a {
+  display: block;
+  min-width: 60px;
+  max-width: 100px;
+  margin: 0 auto 1.875rem auto;
+  background-color: #fff;
+  padding: 0.625rem 1.25rem;
+  border-radius: 0.25rem;
+  box-shadow: 5px 5px 15px 0 rgba(44, 44, 44, 0.15);
+  transition: background-color 0.2s ease-in-out;
+}
+
+nav.sidenav li a:hover {
+  background-color: #b07dfb;
 }
 
 .content {
