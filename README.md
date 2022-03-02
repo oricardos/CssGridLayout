@@ -300,4 +300,6 @@ Define quais colunas serão ocupadas pelo grid item. É possível definir uma li
 > O item irá ocupar duas colunas a partir de onde ele estiver.
 <br/>
 
+![image](https://user-images.githubusercontent.com/46203839/156364902-39bf6395-a510-4d98-a60f-546a631f3b94.png)
+
 
