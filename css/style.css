@@ -21,7 +21,7 @@ a {
 }
 
 img {
-  max-width: 100px;
+  max-width: 100%;
 }
 
 /* GRID GERAL */
@@ -33,9 +33,38 @@ img {
     'sidenave content adverts'
     'footer footer footer';
 }
-
+/* HEADER */
 header.header {
   grid-area: header;
+  background: linear-gradient(135deg, #8844ee, #b07dfb);
+  padding: 1.875rem;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+}
+
+.logo {
+  max-width: 200px;
+}
+
+.header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.875rem;
+}
+
+.header nav a {
+  display: block;
+  padding: 0.625rem 1.25rem;
+  color: #fff;
+  font-size: 1.125rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 0.25rem;
+  transition: background-color 0.2s;
+}
+
+.header nav a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 nav.sidenav {
