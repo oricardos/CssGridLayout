@@ -32,9 +32,10 @@ img {
   grid-template-columns: minmax(10rem, 1fr) 3fr 300px;
   grid-template-areas:
     'header header header'
-    'sidenave content adverts'
+    'sidenav content adverts'
     'footer footer footer';
 }
+
 /* HEADER */
 header.header {
   grid-area: header;
@@ -52,7 +53,10 @@ header.header {
 .header nav ul {
   display: flex;
   flex-wrap: wrap;
-  gap: 1.875rem;
+}
+
+header.header li + li {
+  margin-left: 30px;
 }
 
 .header nav a {
@@ -71,7 +75,7 @@ header.header {
 
 /* SIDENAV */
 nav.sidenav {
-  grid-area: sidenave;
+  grid-area: sidenav;
   background: #fafbfc;
   padding: 1.875rem;
 }
@@ -236,4 +240,83 @@ footer.footer p {
   font-size: 1.125rem;
   text-align: center;
   padding: 1.875rem;
+}
+
+
+@media (max-width: 1200px){
+  .structure {
+    grid-template-areas: 
+      'header header header'
+      'sidenav content content'
+      'sedenav adverts adverts'
+      'footer footer footer'
+    ;
+  }
+}
+
+@keyframes arrow {
+  from {
+    rigth: 30px
+  }
+
+  to {
+    right: 20px;
+  }
+}
+
+@media (max-width: 768px){
+  .structure {
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    'header'
+    'sidenav'
+    'content'
+    'adverts'
+    'footer'
+    ;
+  }
+
+  header.header {
+    grid-template-columns: auto;
+  }
+
+  header .logo {
+    margin-bottom: 20px
+  }
+
+  header.header nav a {
+    font-size: 1rem;
+  }
+
+  header.header li + li {
+    margin-left: 10px;
+  }
+
+  .sidenav {
+    position: relative;
+    padding: 0 30px;
+    overflow-x: auto;
+  }
+
+  .sidenav::after {
+    content: " → ";
+    position: absolute;
+    top: 5px;
+    right: 30px;
+    color: rgba(0, 0, 0, 0.3);
+    animation: arrow .5s ease-in 0s infinite alternate;
+  }
+
+  .sidenav ul {
+    display: flex;
+    overflow-x: scroll;
+  }
+
+  .sidenav ul li {
+    flex: 1 0 60px;
+  }
+
+  .sidenav li a {
+    margin: 30px 30px 30px 0;
+  }
 }
