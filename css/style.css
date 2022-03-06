@@ -21,7 +21,7 @@ a {
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
   display: block;
   border-radius: 5px;
 }
@@ -188,7 +188,7 @@ p {
 .emphasis {
   font-size: 0.875em;
   color: #b07dfb;
-  max-width: 16em;
+  max-width: 16rem;
 }
 
 .quote, .attributes {
@@ -228,6 +228,7 @@ p {
   align-content: start;
   padding: 1.875rem;
   gap: 1.875rem;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
 
 footer.footer {
@@ -318,5 +319,15 @@ footer.footer p {
 
   .sidenav li a {
     margin: 30px 30px 30px 0;
+  }
+}
+
+@media (max-width: 600px){
+  .content {
+    grid-template-columns: auto;
+  }
+
+  .emphasis {
+    max-width: 21rem;
   }
 }
